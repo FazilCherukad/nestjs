@@ -29,10 +29,6 @@ import { TwilioModule } from './features/twilio/twilio.module';
     }),
     UsersModule,
     AuthModule,
-    AuditlogModule,
-    SubscriptionModule,
-    ContactModule,
-    TwilioModule,
     HttpModule
   ],
   controllers: [
