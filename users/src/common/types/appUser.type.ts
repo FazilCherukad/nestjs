@@ -1,0 +1,35 @@
+// import { ObjectType, Field } from 'type-graphql';
+// import { GraphQLJSONObject } from 'graphql-type-json';
+// import { AuthUserType } from '../../../features/auth/types/authUser.type';
+// import { BranchType } from '../../../features/company/types/branch.type';
+// import { AreaType } from '../../../features/company/types/area.type';
+
+// @ObjectType()
+// export class AppUserType {
+//   @Field()
+//   id: string;
+
+//   @Field()
+//   fId: string;
+
+
+//   @Field(() => AuthUserType)
+//   authUser: any;
+
+
+//   @Field({ nullable: true })
+//   address: string;
+
+//   @Field({ nullable: true })
+//   image: string;
+
+//   @Field(() => AreaType, { nullable: true })
+//   area: string;
+
+//   @Field({ nullable: true })
+//   gender: string;
+
+//   @Field(() => [BranchType], { nullable: true })
+//   branches: Array<any>;
+
+// }
